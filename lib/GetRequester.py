@@ -26,5 +26,6 @@ class GetRequester:
             return None
         
         
-
+get_requester = GetRequester('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
+get_requester.load_json()
 
